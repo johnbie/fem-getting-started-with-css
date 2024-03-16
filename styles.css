@@ -65,3 +65,16 @@ a:hover {
     font-size: 4rem;
     font-weight: normal;
 }
+
+#contact {
+    margin: 0 default;
+    background-color: var(--plum);
+}
+#contact p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+#contact h2 {
+    font-size: 4rem;
+    fornt-weight: normal;
+}
