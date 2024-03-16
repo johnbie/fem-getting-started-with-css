@@ -67,7 +67,10 @@ a:hover {
 }
 
 #contact {
-    margin: 0 default;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
     background-color: var(--plum);
 }
 #contact p {
@@ -77,4 +80,7 @@ a:hover {
 #contact h2 {
     font-size: 4rem;
     fornt-weight: normal;
+}
+#contact p:last-child: {
+    margin-top: 3rem;
 }
