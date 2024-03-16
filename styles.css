@@ -21,3 +21,14 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+/* make body style consistent across _all_ browsers */
+/* also, add fonts and colors */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--font-size);
+}
