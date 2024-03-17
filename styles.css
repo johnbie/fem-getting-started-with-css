@@ -162,6 +162,13 @@ nav [class*="fa-"]:hover {
     font-family: var(--mono);
     margin: 0;
 }
+.blackbox {
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
 
 #contact {
     width: 400px;
