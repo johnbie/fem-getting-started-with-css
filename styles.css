@@ -53,6 +53,10 @@ nav {
 nav h1 a {
     font-family: var(--sans);
 }
+nav h1 [class*="fa-"] {
+    font-size: 100%;
+    color: var(--aqua);
+}
 nav ul {
     list-style-type: none;
     padding: 0;
