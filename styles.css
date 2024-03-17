@@ -212,6 +212,17 @@ nav [class*="fa-"]:hover {
 	#projects ul {
 	    justify-content: flex-end;
 	}
+	#projects .reverse img {
+	    grid-column: 6/11;
+	    grid-row: 1/2; /* trigger overlap */
+	}
+	.reverse .text {
+	    grid-column: 1/7;
+	    text-align: left;
+	}
+	#projects .reverse ul {
+	    justify-content: flex-start;
+	}
 } 
 
 #contact {
