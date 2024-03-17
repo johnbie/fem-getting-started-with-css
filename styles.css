@@ -141,14 +141,6 @@ nav [class*="fa-"]:hover {
     margin: 0 auto;
     padding: 3rem 0;
 }
-#contact p {
-    font-size: 1rem;
-    line-height: 1.5;
-}
-#contact h2 {
-    font-size: 4rem;
-    fornt-weight: normal;
-}
 #contact p:last-child: {
     margin-top: 3rem;
 }
