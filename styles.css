@@ -194,10 +194,16 @@ nav [class*="fa-"]:hover {
 @media (min-width: 550px) {
     article {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(10, 1fr); /* 1fr repeated 10 times */
         gap: 1rem;
 	}
+	#projects img {
+	    grid-column: 1/6; /* starts at 1, ends at 6 */
+	    grid-row: 1/2; /* trigger overlap */
+	}
 	.text {
+	    grid-column: 5/11; /* starts at 5, ends at 11 */
+	    grid-row: 1/2; /* trigger overlap */
 	    order: 2; /* text is "ordered" for later */
 	    text-align: right;
 	}
