@@ -146,6 +146,23 @@ nav [class*="fa-"]:hover {
     font-weight: normal;
 }
 
+/* projects */
+#projects {
+    padding: 4rem 1rem;
+}
+#projects h2 {
+    font-size: 2.5 rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+#projects h3 {
+    color: var(--aqua);
+}
+#projects h4 {
+    font-size: 1rem;
+    font-family: var(--mono);
+    margin: 0;
+}
+
 #contact {
     width: 400px;
     text-align: center;
