@@ -67,6 +67,10 @@ nav li:first-child {
     flex-basis: 100%; /* as close to full as possible (kinda) */
     text-align: center;
 }
+nav [class*="fa-"] {
+    font-size: 150%;
+    color: var(--aqua);
+}
 nav a {
     color: var(--white);
     text-decoration: none;
