@@ -87,8 +87,11 @@ nav [class*="fa-"]:hover {
 
 .button {
     background-color: var(--magenta);
+    color: white;
     padding: 0.5rem;
     border-radius: 5px;
+    font-family: var(--mono);
+    text-decoration: none;
 }
 .button:hover {
     color: var(--white);
