@@ -131,12 +131,15 @@ nav [class*="fa-"]:hover {
     font-weight: normal;
 }
 
+.section-plum {
+    background-color: var(--plum);
+}
+
 #contact {
     width: 400px;
     text-align: center;
     margin: 0 auto;
     padding: 3rem 0;
-    background-color: var(--plum);
 }
 #contact p {
     font-size: 1rem;
