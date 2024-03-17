@@ -102,8 +102,8 @@ nav [class*="fa-"]:hover {
     }
     nav li:first-child {
         flex-basis: auto;
-	text-align: left;
-	margin-right: auto
+        text-align: left;
+        margin-right: auto
     }
 }
 
